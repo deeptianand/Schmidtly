@@ -1,0 +1,29 @@
+.container {
+  margin: 20px auto;
+  width: 600px;
+  padding: 0px 20px 20px 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.container1 {
+  margin: 20px auto;
+  width: 600px;
+  padding: 0px 20px 20px 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: #7FFFD4;
+}
+
+a {
+  border: 1px solid black;
+  border-radius: 4px;
+  color: white;
+  background: black;
+  text-decoration: none;
+  padding: 6px;
+}
+
+input {
+  margin-top: 4px;
+}

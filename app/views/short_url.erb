@@ -1,0 +1,8 @@
+<div class='container1'>
+  <% if !@url.valid? %>
+    <p>The URL you entered is not compatible with our sad, sad system. Sorry!</p>
+  <%else %>
+    <p>Check it! Here's your abbreviated link: <a href="/<%=@url.short_url %>"><%=@url.short_url %></a></p>
+  <%end %>
+</div>
+
